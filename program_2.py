@@ -13,11 +13,11 @@ def main():
     current_tickets = 0
     amount_movies = int(input('How many movies are you buying tickets for? '))
     for i in range(amount_movies):
-        movie_name = input("Enter movie name: ")
-        tickets = int(input("How many tickets for " + movie_name + "? "))
+        movie_name = input('Enter movie name: ')
+        tickets = int(input('How many tickets for ' + movie_name + '? '))
         current_tickets = current_tickets + tickets
 
-    print("Total amount of purchased tickets:", current_tickets)
+    print('Total amount of purchased tickets:', current_tickets)
     ######################
 
 
